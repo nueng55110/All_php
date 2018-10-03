@@ -1,10 +1,3 @@
-<?php
-if(!isset($_SESSION["pass"]) || $_SESSION["pass"] != "yes") {
-header("Location: loginpage.php");
-	exit;
-}
-?>
-
 <html><head><title>burin</title></head>
 <meta http-equiv="content-type"
 content="text/html;charset=tis-620" />
